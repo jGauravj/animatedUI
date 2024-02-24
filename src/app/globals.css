@@ -24,10 +24,26 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  margin: 0;
+  padding: 0;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.name {
+  letter-spacing: 7.11px;
+  font-weight: 700;
+}
+
+.mask {
+  position: absolute;
+  mask-repeat: no-repeat;
+  mask-image: url(../../public/mask.svg);
+  background: #eb5939;
+  mask-size: 40px;
+  color: #0d0d0d;
 }
