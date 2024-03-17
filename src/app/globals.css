@@ -34,7 +34,8 @@ body {
   }
 }
 
-.name {
+.name,
+.resume {
   letter-spacing: 7.11px;
   font-weight: 700;
 }
